@@ -5,27 +5,14 @@ import Link from 'next/link'
 import { ShoppingBag, Menu, X } from 'lucide-react'
 import { useCart } from '@/lib/cart-context'
 
-export default function Navbar({ transparentOnTop = false }: { transparentOnTop?: boolean }) {
-  const [isScrolled, setIsScrolled] = useState(false)
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { totalItems } = useCart()
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  const isTransparent = transparentOnTop && !isScrolled
-  const navClasses = isTransparent ? 'bg-transparent' : 'bg-white shadow-md'
-  const textClasses = isTransparent ? 'text-white' : 'text-black'
-
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${navClasses}`}>
+    <nav className="fixed top-0 w-full z-50 bg-white shadow-md transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className={`flex justify-between items-center h-16 ${textClasses}`}>
+        <div className="flex justify-between items-center h-16 text-black">
           <Link href="/" className="text-2xl font-serif font-bold uppercase tracking-[0.15em]">
             JSHANDS
           </Link>
