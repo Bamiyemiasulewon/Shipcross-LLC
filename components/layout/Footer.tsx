@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-sm opacity-80">
-          <p>&copy; 2026 JShands Shops. All rights reserved.</p>
+          <p>&copy; 2025 JSHANDS. All rights reserved.</p>
         </div>
       </div>
     </footer>
