@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { ShoppingBag, Menu, X } from 'lucide-react'
 import { useCart } from '@/lib/cart-context'
