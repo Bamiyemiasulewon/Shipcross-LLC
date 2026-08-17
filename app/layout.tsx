@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'JSHANDS',
+  title: 'Shipcross',
   description: 'Luxury clothing and accessories for the modern wardrobe.',
 }
 

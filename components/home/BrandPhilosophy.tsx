@@ -7,7 +7,7 @@ export default function BrandPhilosophy() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <Image
-              src="https://plus.unsplash.com/premium_photo-1683746792239-6ce8cdd3ac78?w=800&h=1000&fit=crop"
+              src="https://images.unsplash.com/photo-1771919358565-059d9348b50b?w=1600&q=80&auto=format&fit=crop"
               alt="Brand philosophy"
               width={600}
               height={400}

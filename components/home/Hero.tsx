@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <Image
-        src="/images/hero.jpg"
+        src="https://plus.unsplash.com/premium_photo-1703703954892-593511ffdd47?w=1600&q=80&auto=format&fit=crop"
         alt="Fashion hero"
         fill
         className="object-cover"

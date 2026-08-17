@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Instagram, Twitter, Facebook } from 'lucide-react'
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-8 text-center text-sm opacity-80">
-          <p>&copy; 2025 JSHANDS. All rights reserved.</p>
+          <p>&copy; {currentYear} Shipcross LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

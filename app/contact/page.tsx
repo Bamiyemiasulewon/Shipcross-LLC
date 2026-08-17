@@ -20,7 +20,7 @@ export default function ContactPage() {
           <aside className="rounded-xl border border-background/80 bg-white p-8 shadow-sm">
             <div className="mb-8">
               <h2 className="text-xl font-serif font-semibold mb-4">Email</h2>
-              <p className="text-gray-700">hello@jshandsshops.com</p>
+              <p className="text-gray-700">contact@shipcross.com</p>
             </div>
 
             <div className="mb-8">

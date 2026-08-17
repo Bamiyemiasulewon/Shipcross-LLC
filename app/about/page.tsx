@@ -10,7 +10,7 @@ export default function AboutPage() {
             Our Story
           </h1>
           <p className="mx-auto max-w-3xl text-lg md:text-xl leading-relaxed text-gray-700">
-            JSHANDS is a premium fashion house devoted to timeless craftsmanship and refined silhouettes. We curate wardrobe essentials with exquisite fabrics, attentive tailoring, and a quiet luxury spirit that elevates everyday dressing.
+            Shipcross is a premium fashion house devoted to timeless craftsmanship and refined silhouettes. We curate wardrobe essentials with exquisite fabrics, attentive tailoring, and a quiet luxury spirit that elevates everyday dressing.
           </p>
         </div>
 
